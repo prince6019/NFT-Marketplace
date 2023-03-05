@@ -1,0 +1,38 @@
+.navbar{
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+.navbar_container{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.navbar_container_left{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+.navbar_container_right{
+    display: grid;
+    grid-template-columns: 1fr 1fr .5fr 1fr ;
+    align-items: center;
+}
+
+.navbar_container_right_discover , .navbar_container_right_helpcenter , .navbar_container_right_notification , .navbar_container_right_profile{
+    cursor: pointer;
+    position: relative;
+}
+.navbar_container_right_discover_box,.navbar_container_right_help_box{
+    position: absolute;
+    padding: 1rem .5rem;
+    /* box-shadow: var(--box-shadow); */
+    font-size: 1rem;
+    width: 15rem;
+    border-radius: 1rem;
+    /* background-color: var(--main-bg-color); */
+}

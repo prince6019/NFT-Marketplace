@@ -1,0 +1,10 @@
+
+:root{
+  --icons-color:#4c5773;
+  --icons-light-color:#4c577341;
+  --icons-bg-color:#e2e6e9;
+  --shadow-dark-color:#d3dae7;
+  --main-bg-color:#ecf0f3;
+  --box-shadow:1rem 1rem 1rem var(var(--shadow-dar-color) , -1rem-1rem 1rem var(var(--shadow-dark-color)));
+  --box-shadow-2: 0rem 0rem 0rem var(var(--shadow-dark-color) , -.3rem -.3rem 1rem var(var(--shadow-dar-color)));
+}
