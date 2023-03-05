@@ -2,6 +2,7 @@ import Style from "./Navbar.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { ConnectButton } from "web3uikit";
 
 //---- IMPORT ICON
 import { MdNotifications } from "react-icons/md";
@@ -82,6 +83,7 @@ export default function Navbar() {
           </div>
           <div className={Style.navbar_container_left_input}>
             <input type="text" placeholder="Search NFTs" />
+            <BsSearch className={Style.search_icon} />
           </div>
         </div>
 
@@ -109,13 +111,20 @@ export default function Navbar() {
           {/* Notifcation Menu */}
           <div className={Style.navbar_container_right_notification}>
             <p>
-              <MdNotifications onClick={() => openNotificaiton()} />
+              <MdNotifications
+                onClick={() => openNotificaiton()}
+                className={Style.notify_icon}
+              />
             </p>
             {notification && (
               <div className={Style.navbar_container_right_notification_box}>
                 <Notification />
               </div>
             )}
+          </div>
+          {/* Connect Button */}
+          <div className={Style.navbar_container_right_button}>
+            <ConnectButton moralisAuth={false} />
           </div>
           {/* Profile  */}
           <div className={Style.navbar_container_right_profile}>
