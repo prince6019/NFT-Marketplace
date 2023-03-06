@@ -1,6 +1,9 @@
-import BigNftSlider from "@/components/BigNftSlider/BigNftSlider";
-import HeroSection from "@/components/HeroSection/HeroSection";
-import Services from "@/components/Services/Services";
+import {
+  HeroSection,
+  Services,
+  BigNftSlider,
+  Subscribe,
+} from "@/components/componentIndex";
 
 export default function index() {
   return (
@@ -8,6 +11,7 @@ export default function index() {
       <HeroSection />
       <Services />
       <BigNftSlider />
+      <Subscribe />
     </>
   );
 }

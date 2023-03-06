@@ -1,4 +1,16 @@
 import Navbar from "./Navbar/Navbar";
 import Footer from "./Footer/Footer";
 import Button from "./Button/Button";
-export { Navbar, Footer, Button };
+import BigNftSlider from "./BigNftSlider/BigNftSlider";
+import Subscribe from "./Subscribe/Subscribe";
+import HeroSection from "./HeroSection/HeroSection";
+import Services from "./Services/Services";
+export {
+  Navbar,
+  BigNftSlider,
+  Services,
+  Subscribe,
+  HeroSection,
+  Footer,
+  Button,
+};
