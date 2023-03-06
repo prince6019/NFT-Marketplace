@@ -1,0 +1,66 @@
+.filter{
+    width: 100%;
+}
+.filter_container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+}
+.filter_container_left{
+    display: flex;
+    gap: 2rem;
+}
+.filter_container_left button{
+    background-color: var(--main-bg-color);
+    color: var(--icons-color);
+}
+.filter_box_left button:hover{
+    border:  1px solid var(--icons-color);
+    color: var(--icons-color);
+    box-shadow: var(--box-shadow);
+}
+.filter_container_right_box{
+    border:  1px solid var(--icons-color);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    color: var(--icons-color);
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.filter_container_items{
+    width: 80%;
+    margin:  0 auto;
+    display: flex;
+    padding: 2rem 0;
+    border-top: 1px solid var(--icons-light-color);
+}
+.filter_container_items_box{
+    padding: 1rem;
+}
+.filter_container_items_box_item{
+    background-color: var(--icons-color);
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    color: var(--main-bg-color);
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.filter_container_items_box_item_trans{
+    border: 1px solid var(--icons-color);
+    color: var(--icons-color);
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}

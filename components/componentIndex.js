@@ -8,7 +8,10 @@ import Services from "./Services/Services";
 import Title from "./Title/Title";
 import Category from "./Category/Category";
 import Filter from "./Filter/Filter";
+import NFTCard from "./NFTCard/NFTCard";
+import Collection from "./Collection/Collection";
 export {
+  Collection,
   Navbar,
   BigNftSlider,
   Services,
@@ -19,4 +22,5 @@ export {
   Title,
   Category,
   Filter,
+  NFTCard,
 };

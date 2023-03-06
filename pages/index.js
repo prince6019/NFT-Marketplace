@@ -5,8 +5,10 @@ import {
   Subscribe,
   Title,
   Category,
+  Filter,
+  NFTCard,
+  Collection,
 } from "@/components/componentIndex";
-import { Filter } from "web3uikit";
 
 export default function index() {
   return (
@@ -15,10 +17,16 @@ export default function index() {
       <Services />
       <BigNftSlider />
       <Title
+        heading="New Collection"
+        paragraph="Discover the most outstanding NFTs in all topics"
+      />
+      <Collection />
+      <Title
         heading="Feadtured Nfts"
         paragraph="Discover the most outstanding NFTs in all topics"
       />
       <Filter />
+      <NFTCard />
       <Category />
       <Subscribe />
     </>

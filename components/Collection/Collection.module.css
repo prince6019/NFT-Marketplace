@@ -1,0 +1,39 @@
+.collection{
+    width: 100%;
+    padding: 3rem 0;
+    padding-bottom: 10rem;
+}
+.collection_title{
+    margin: 0 auto;
+    width: 35rem;
+    margin:  0 auto;
+    padding: 0 0 6rem 0;
+    text-align: center;
+}
+.collection_title h2{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+.collection_collections_btn{
+    background-color: var(--main-bg-color);
+    padding: .5rem 1rem;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1.2rem;
+    box-shadow: var(--box-shadow);
+}
+.collection_collections_btn button:hover{
+    background-color: transparent;
+    color: var(--icons-color);
+}
+.collection_box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+}
