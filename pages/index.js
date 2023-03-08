@@ -9,6 +9,7 @@ import {
   NFTCard,
   Collection,
   FollowerTab,
+  AudioLive,
 } from "@/components/componentIndex";
 
 export default function index() {
@@ -17,10 +18,13 @@ export default function index() {
       <HeroSection />
       <Services />
       <BigNftSlider />
+
       <Title
-        heading="New Collection"
-        paragraph="Discover the most outstanding NFTs in all topics"
+        heading="Audio Collection"
+        paragraph="Discover the most outstanding Audio's NFTs in all topics"
       />
+      <AudioLive />
+
       <FollowerTab />
       <Collection />
       <Title
@@ -29,6 +33,10 @@ export default function index() {
       />
       <Filter />
       <NFTCard />
+      <Title
+        heading="Browse by Category"
+        paragraph="Explore the NFTs in the most featured categories."
+      />
       <Category />
       <Subscribe />
     </>

@@ -17,7 +17,6 @@ function DaysComponent({ ele, i }) {
             alt="profile background"
             width={500}
             height={300}
-            // style={{ objectFit: "cover" }}
           />
         </div>
 
@@ -54,7 +53,6 @@ function DaysComponent({ ele, i }) {
                 alt="profile"
                 width={30}
                 height={30}
-                objectFit="covers"
                 className={Style.daysComponent_box_title_info_profile_img}
               />
 
