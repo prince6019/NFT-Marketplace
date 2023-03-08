@@ -8,6 +8,7 @@ import {
   Filter,
   NFTCard,
   Collection,
+  FollowerTab,
 } from "@/components/componentIndex";
 
 export default function index() {
@@ -20,6 +21,7 @@ export default function index() {
         heading="New Collection"
         paragraph="Discover the most outstanding NFTs in all topics"
       />
+      <FollowerTab />
       <Collection />
       <Title
         heading="Feadtured Nfts"

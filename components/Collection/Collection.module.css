@@ -25,6 +25,9 @@
     font-size: 1.2rem;
     box-shadow: var(--box-shadow);
 }
+.collection_collections_btn button{
+    padding: 1rem;
+}
 .collection_collections_btn button:hover{
     background-color: transparent;
     color: var(--icons-color);

@@ -12,7 +12,7 @@ import images from "../../img";
 import { Button } from "../componentIndex";
 
 function Collection() {
-  const [latest, setlatest] = useState(true);
+  const [latest, setLatest] = useState(true);
   const [following, setFollowing] = useState(false);
   const [total, setTotal] = useState(false);
 
@@ -111,29 +111,29 @@ function Collection() {
     },
   ];
 
-  //   const openlatest = () => {
-  //     if (!latest) {
-  //       setlatest(true);
-  //       setFollowing(false);
-  //       setTotal(false);
-  //     }
-  //   };
+  const openLatest = () => {
+    if (!latest) {
+      setLatest(true);
+      setFollowing(false);
+      setTotal(false);
+    }
+  };
 
-  //   const openFollower = () => {
-  //     if (!following) {
-  //       setlatest(false);
-  //       setFollowing(true);
-  //       setTotal(false);
-  //     }
-  //   };
+  const openFollower = () => {
+    if (!following) {
+      setLatest(false);
+      setFollowing(true);
+      setTotal(false);
+    }
+  };
 
-  //   const opentotal = () => {
-  //     if (!total) {
-  //       setlatest(false);
-  //       setFollowing(false);
-  //       setTotal(true);
-  //     }
-  //   };
+  const openTotal = () => {
+    if (!total) {
+      setLatest(false);
+      setFollowing(false);
+      setTotal(true);
+    }
+  };
 
   return (
     <div className={Style.collection}>
@@ -144,23 +144,19 @@ function Collection() {
             <Button
               btnName="24 hours"
               icon={<BsFillAlarmFill />}
-              //   onClick={() => openlatest()}
-              //   handleClick={openlatest()}
+              handleClick={openLatest}
             />
             <Button
               btnName="7 days"
               icon={<BsCalendar3 />}
-              //   onClick={() => openFollower()}
-              //   handleClick={openFollower()}
+              handleClick={openFollower}
             />
 
             <Button
               btnName="30 Days"
               icon={<BsFillCalendarDateFill />}
-              //   onClick={() => opentotal()}
-              //   handleClick={opentotal()}
+              handleClick={openTotal}
             />
-            {/* <BsFillCalendarDateFill /> */}
           </div>
         </div>
       </div>

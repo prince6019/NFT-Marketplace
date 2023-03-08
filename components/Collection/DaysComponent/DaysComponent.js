@@ -28,7 +28,6 @@ function DaysComponent({ ele, i }) {
             width={100}
             height={100}
             className={Style.daysComponent_box_img_1}
-            // style={{ objectFit: "cover" }}
           />
           <Image
             src={images[`creatorbackground${i + 4}`]}
@@ -36,7 +35,6 @@ function DaysComponent({ ele, i }) {
             width={100}
             height={100}
             className={Style.daysComponent_box_img_2}
-            // style={{ objectFit: "cover" }}
           />
           <Image
             src={images[`creatorbackground${i + 3}`]}
@@ -44,7 +42,6 @@ function DaysComponent({ ele, i }) {
             width={100}
             height={100}
             className={Style.daysComponent_box_img_3}
-            // style={{ objectFit: "cover" }}
           />
         </div>
 
