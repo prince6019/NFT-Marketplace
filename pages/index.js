@@ -26,10 +26,6 @@ export default function index() {
         paragraph="Discover the most outstanding Audio's NFTs in all topics"
       />
       <AudioLive />
-      <Title
-        heading="Explore Nfts Video"
-        paragraph="Click on play button and enjoy the video"
-      />
       <Slider />
       <FollowerTab />
       <Collection />

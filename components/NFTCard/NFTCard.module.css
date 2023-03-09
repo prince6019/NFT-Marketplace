@@ -16,7 +16,6 @@
     grid-template-rows: repeat(4, 1fr); 
     cursor: pointer;
     transition: all .3s ease-in;
-    /* overflow: hidden; */
 }
 .NFTCard_box:hover{
     box-shadow: var(--box-shadow-2);
