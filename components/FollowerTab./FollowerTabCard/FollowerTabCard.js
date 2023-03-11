@@ -29,7 +29,7 @@ function FollowerTabCard({ i, ele }) {
         <div className={Style.FollowerTabCard_box_img}>
           <Image
             className={Style.FollowerTabCard_box_img_img}
-            src={images.creatorbackground2}
+            src={ele.background}
             alt="profile background"
             width={500}
             height={300}
@@ -39,7 +39,7 @@ function FollowerTabCard({ i, ele }) {
         <div className={Style.FollowerTabCard_box_profile}>
           <Image
             className={Style.FollowerTabCard_box_profile_img}
-            src={images.user5}
+            src={ele.user}
             alt="profile picture"
             width={70}
             height={70}

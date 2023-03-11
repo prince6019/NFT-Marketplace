@@ -43,7 +43,7 @@ function NFTCardTwo({ NFTData }) {
 
           <div className={Style.NFTCardTwo_box_img}>
             <Image
-              src={ele.image}
+              src={ele}
               alt="NFT"
               width={500}
               height={500}
