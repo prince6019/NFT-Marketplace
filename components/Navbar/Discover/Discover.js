@@ -12,10 +12,10 @@ function Discover() {
     },
     {
       name: "Search",
-      link: "searchPage",
+      link: "search",
     },
     {
-      name: "Author Profile",
+      name: "Author",
       link: "author",
     },
     {
