@@ -20,7 +20,7 @@ function Discover() {
     },
     {
       name: "NFT Details",
-      link: "NFT-details",
+      link: "nft-details",
     },
     {
       name: "Account Setting",
