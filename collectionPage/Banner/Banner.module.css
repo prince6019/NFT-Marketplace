@@ -1,0 +1,11 @@
+.banner{
+    width: 100%;
+}
+.banner_img{
+    width: 80%;
+    margin: 0 auto;
+}
+.banner_img img{
+    width: 100%;
+    object-fit: cover;
+}
