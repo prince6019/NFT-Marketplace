@@ -28,7 +28,7 @@ function Discover() {
     },
     {
       name: "Upload NFT",
-      link: "uploadNFT",
+      link: "uploadNft",
     },
     {
       name: "Connect Wallet",
