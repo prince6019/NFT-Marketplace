@@ -30,6 +30,7 @@
     width: 90%;
     outline: none;
     border: none;
+    background-color: transparent;
 }
 
 .search_icon{
@@ -60,9 +61,9 @@
     font-size: 1.4rem;
 }
 
-.navbar_container_right_button button{
+/* .navbar_container_right_button button{
     background-color: var(--icons-color);
 }
 .navbar_container_right_button span{
     color: var(--main-bg-color);
-}
+} */
